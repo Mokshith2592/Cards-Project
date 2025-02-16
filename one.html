@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background: #E6DADA;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            overflow-x: hidden;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 380px;
+            height: 600px;
+            background-color: wheat;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            padding: 20px;
+            /* justify-content: space-around; */
+        }
+        .card img{
+            width: 90%;
+            border-radius: 10px;
+        }
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .card p{
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="qrcode.webp" alt="not_found">
+            <h2>Improve your front end skills by developing Projects</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo laborum perspiciatis maxime aperiam! Reprehenderit quia soluta magnam cum sed.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
